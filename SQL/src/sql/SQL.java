@@ -217,7 +217,7 @@ public class SQL {
     //  System.out.println (rs.getString("country"));
 
     } catch (SQLException sqle) { 
-      System.out.println("Error en la ejecución de pitos:" 
+      System.out.println("Error en la ejecución:" 
         + sqle.getErrorCode() + " " + sqle.getMessage());
     }
     }
@@ -237,7 +237,7 @@ public class SQL {
     stmt.execute();
 
     } catch (SQLException sqle) { 
-      System.out.println("Error en la ejecución de pitos:" 
+      System.out.println("Error en la ejecución:" 
         + sqle.getErrorCode() + " " + sqle.getMessage());
     }
     }
