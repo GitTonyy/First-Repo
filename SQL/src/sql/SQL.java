@@ -75,7 +75,7 @@ public class SQL {
         stmt.execute();
 
         } catch (SQLException sqle) { 
-          System.out.println("Error en la ejecución:" 
+          System.out.println("Error en la ejecución : " 
             + sqle.getErrorCode() + " " + sqle.getMessage());
         }
        }

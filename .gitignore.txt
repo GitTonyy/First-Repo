@@ -1,3 +1,0 @@
-Excepciones
-MenuBar
-Ventanas
